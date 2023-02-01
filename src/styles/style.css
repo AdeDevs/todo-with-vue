@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background-color: rgb(31, 34, 53);
+    font-family: "", 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.main-container {
+    background-color: rgb(31, 34, 53);
+    width: 99%;
+    margin: 0 auto;
+}

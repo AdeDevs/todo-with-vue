@@ -1,0 +1,194 @@
+.nav {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  margin: 0px auto;
+  padding: 10px 0px;
+  top: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: rgb(31, 34, 53);
+  position: fixed;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+
+.nav a:hover,
+.my-summary .info a:hover {
+  background-color: #fff;
+  color: rgb(40, 43, 66);
+  transition: 200ms;
+  border: 2px solid red;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+/*Style for my summary */
+.my-summary {
+  background-color: rgb(35, 38, 58);
+  width: 100%;
+  padding: 10px;
+  font-family: "Comfortaa", sans-serif;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.my-summary .socials img {
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 15px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.my-summary .socials img:hover {
+  background-color: red;
+  border: 1.5px solid #fff;
+  transition: 200ms;
+}
+
+.my-summary h1 {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7em;
+  text-transform: capitalize;
+}
+
+.my-summary .info {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.my-summary .info .ade {
+    margin: 0 auto;
+    width: 100%;
+  padding: 5px;
+}
+
+.my-summary .info .ade p {
+    width: 90%;
+}
+
+.my-summary p {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  line-height: 2.3em;
+}
+
+.my-summary .info a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 2px 15px;
+  font-weight: 600;
+  margin: 0px 2px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid red;
+  background-color: rgb(40, 43, 66);
+}
+
+/* Styling for "projects" */
+#projects {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+#projects a:hover {
+    transition: 200ms;
+    background-color: white;
+    color: rgb(40, 43, 66);
+}
+
+#projects h1 {
+  font-weight: 800;
+  font-size: 1.2em;
+  font-family: "comfortaa", sans-serif;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  margin-bottom: 5px;
+}
+
+#projects p {
+  font-family: "Montserrat", sans-serif;
+}
+
+#projects .projects-head h1 {
+  color: red;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+}
+
+#projects .projects-head #little {
+  font-weight: 100;
+  width: 300px;
+  margin: 10px auto;
+  text-transform: lowercase;
+  font-size: 0.7em;
+}
+
+#projects .projects-head p {
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+#projects .my-projects {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#projects .my-projects section {
+  width: 300px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  border: 2px solid red;
+  background-color: rgb(40, 43, 66);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* design for foot of website */
+.foot {
+  background-color: rgb(35, 38, 58);
+  position: fixed;
+  top: 94%;
+  width: 99%;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.foot p {
+  font-size: .9em;
+}

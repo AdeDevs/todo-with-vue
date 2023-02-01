@@ -1,0 +1,51 @@
+<template>
+    <div class="hello">
+        <h1>My Name Is  <a href="https://linktr.ee/adedevs"> {{firstName}} </a></h1>
+        <p>And i am a student of {{school}}</p>
+        <p> {{count}} </p>
+        <button @click="incrementCount">+</button>
+        <button @click="decrementCount">-</button>
+        </div>
+</template>
+
+<script>
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  },
+  data() {
+    return {
+      firstName: "Adeyemi",
+      school: "AltSchool",
+      count: 0
+    }
+  },
+  methods:{
+    incrementCount(){
+      this.count++;
+    },
+    decrementCount(){
+      this.count--;
+    }
+  },
+  beforeCreate() {
+    console.log('beforeCreate has been called');
+  },
+  created() {
+    console.log('created has been called');
+  },
+  beforeMount() {
+    console.log('beforeMount has been called')
+  },
+  mounted() {
+    console.log('mounted has been called')
+  },
+  beforeUpdate() {
+    console.log('beforeUpdate has been called');
+  },
+  updated() {
+    console.log('The count is now ' + this.count)
+  }
+}
+</script>
