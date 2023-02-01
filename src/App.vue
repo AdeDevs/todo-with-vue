@@ -1,9 +1,7 @@
 <template>
-  <RouterView>
-    <div class="main-container">
+  <div class="main-container">
     <MyHomePage />
   </div>
-  </RouterView>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <h1>
-      <RouterLink to="/about">{{ name }}</RouterLink>
+      <a href="https://linktr.ee/adedevs">{{ name }}</a>
     </h1>
     <section>
       <ul>
