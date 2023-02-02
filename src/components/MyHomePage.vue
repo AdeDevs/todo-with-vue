@@ -66,8 +66,8 @@
         <p>A tic-tac-toe game against an AI built off the mini-max algorithm. The games will always either in a win for the AI or a tie.</p>
       </section>
       <section>
-        <h1><a href="#">task tracker</a></h1>
-        <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally.</p>
+        <h1><a href="https://kryptyktodo.netlify.app/">task tracker</a></h1>
+        <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally. <a href="https://github.com/AdeDevs/TaskTracker">Source Code</a></p>
       </section>
       <section>
         <h1><a href="https://kryptykcalculator.web.app/">calculator</a></h1>
