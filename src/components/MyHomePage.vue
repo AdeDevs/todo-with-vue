@@ -74,6 +74,10 @@
         <p>A single webpage that shows "CRID" in effect which just stores the data saved to current page data, once reloaded all data is lost. There's the option to create and delete a "quote", there's also a like increment and decrement counter.</p>
       </section>
       <section>
+        <h1><a href="https://tictactoe.adedevs.repl.co/">tic-tac-toe </a></h1>
+        <p>A traditional tic-tac-toe game where human players can play against each other, this was built with Vanilla Javascript and HTML</p>
+      </section>
+      <section>
         <h1><a href="">Gallery</a></h1>
         <p>{{lorem}}</p>
       </section>
