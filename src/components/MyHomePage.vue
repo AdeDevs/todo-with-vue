@@ -58,11 +58,15 @@
     <div class="projects-head">
       <h1>projects</h1>
     <p>my projects</p>
-    <p id="little">Lorem ipsum, dolor sit amet consectetur adipisicing elit, inventore praesentium placeat. </p>
+    <p id="little">These is a list of all the projects I've worked and some that I am still working on.</p>
     </div>
     <div class="my-projects">
       <section>
         <h1><a href="https://tictactoe.adedevs.repl.co/">tic-tac-toe game</a></h1>
+        <p>A tic-tac-toe game against an AI built off the mini-max algorithm. The games will always either in a win for the AI or a tie.</p>
+      </section>
+      <section>
+        <h1><a href="#">task tracker</a></h1>
         <p>A tic-tac-toe game against an AI built off the mini-max algorithm. The games will always either in a win for the AI or a tie.</p>
       </section>
       <section>
@@ -74,7 +78,7 @@
         <p>A single webpage that shows "CRID" in effect which just stores the data saved to current page data, once reloaded all data is lost. There's the option to create and delete a "quote", there's also a like increment and decrement counter.</p>
       </section>
       <section>
-        <h1><a href="https://tictactoe.adedevs.repl.co/">tic-tac-toe </a></h1>
+        <h1><a href="#">tic-tac-toe </a></h1>
         <p>A traditional tic-tac-toe game where human players can play against each other, this was built with Vanilla Javascript and HTML</p>
       </section>
       <section>
