@@ -180,7 +180,7 @@ ul {
 .foot {
   background-color: rgb(35, 38, 58);
   position: fixed;
-  top: 94%;
+  top: 95%;
   width: 99%;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
@@ -191,4 +191,13 @@ ul {
 
 .foot p {
   font-size: .9em;
+}
+
+.bottom {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
 }

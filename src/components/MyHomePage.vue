@@ -58,7 +58,7 @@
     <div class="projects-head">
       <h1>projects</h1>
     <p>my projects</p>
-    <p id="little">These is a list of all the projects I've worked and some that I am still working on.</p>
+    <p id="little">This is a list of all the projects I've worked and some that I am still working on.</p>
     </div>
     <div class="my-projects">
       <section>
@@ -95,11 +95,11 @@
       </section>
     </div>    
   </div>
-  <!-- <footer class="foot">
+  <footer class="bottom">
     <p>
       this website was built by adeyemi using VueJS
     </p>
-  </footer> -->
+  </footer>
 </template>
 
 <script>
