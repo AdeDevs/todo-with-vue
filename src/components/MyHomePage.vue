@@ -97,7 +97,7 @@
   </div>
   <footer class="bottom">
     <p>
-      this website was built by adeyemi using VueJS
+      this website was built by adeyemi using
     </p>
   </footer>
 </template>
