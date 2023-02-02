@@ -6,7 +6,8 @@
     <section>
       <ul>
         <li style="margin-right: 10px"><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li style="margin-right: 10px"><a href="#contact">Contact</a></li>
+        <li><a href="https://docs.google.com/document/d/1NWXrOx77kMAUol-TsPX9lmA7CawSGAR1mSC4Bp9viSk/edit?usp=sharing">CV</a></li>
       </ul>
     </section>
   </div>
