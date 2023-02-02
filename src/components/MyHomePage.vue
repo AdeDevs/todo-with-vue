@@ -67,7 +67,7 @@
       </section>
       <section>
         <h1><a href="#">task tracker</a></h1>
-        <p>A tic-tac-toe game against an AI built off the mini-max algorithm. The games will always either in a win for the AI or a tie.</p>
+        <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally.</p>
       </section>
       <section>
         <h1><a href="https://kryptykcalculator.web.app/">calculator</a></h1>
