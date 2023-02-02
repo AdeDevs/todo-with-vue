@@ -194,10 +194,14 @@ ul {
 }
 
 .bottom {
+  position: relative;
+  top: 100%;
   background-color: white;
   color: black;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
+  padding: 0px 3px;
   text-align: center;
   width: 100%;
 }
