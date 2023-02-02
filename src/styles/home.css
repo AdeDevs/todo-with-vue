@@ -177,19 +177,7 @@ ul {
 }
 
 /* design for foot of website */
-.foot {
-  background-color: rgb(35, 38, 58);
-  position: fixed;
-  top: 95%;
-  width: 99%;
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  padding: 10px 8px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.foot p {
+.bottom p {
   font-size: .9em;
 }
 
