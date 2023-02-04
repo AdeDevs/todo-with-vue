@@ -83,8 +83,8 @@
         <p>A traditional tic-tac-toe game where human players can play against each other, this was built with Vanilla Javascript and HTML</p>
       </section>
       <section>
-        <h1><a href="">Gallery</a></h1>
-        <p>A simple Gallery app that uses the <a href="https://randomuser.me/">randomuser.me</a> API to shuffle though random images from the API</p>
+        <h1><a href="https://gimmikgallery.web.app/" target="_blank">Gallery</a></h1>
+        <p>A simple Gallery app that uses the <a href="https://randomuser.me/" target="_blank">randomuser.me</a> API to shuffle though random images from the API</p>
       </section>
       <section>
         <h1><a href="">R p g</a></h1>
