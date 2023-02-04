@@ -57,8 +57,8 @@
   </div>
   <div id="projects">
     <div class="projects-head">
-      <h1>projects</h1>
-    <p>my projects</p>
+      <!-- <h1>projects</h1> -->
+    <h1>my projects</h1>
     <p id="little">This is a list of all the projects I've worked on and some that I am still working on.</p>
     </div>
     <div class="my-projects">
