@@ -41,7 +41,7 @@
              <a href="https://bit.ly/3hCbN9t" @click="photographer"
               >Photographer</a
             >
-             <a href="https://bit.ly/3FY16aI">Writer</a>
+             <a href="https://drive.google.com/drive/folders/1RrwGQqwh9v0gFPCr1g_8tVdvhGRSmW0i?usp=share_link" target="_blank">Writer</a>
           </p>
           <p>
             My personal
