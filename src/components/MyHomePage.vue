@@ -84,7 +84,7 @@
       </section>
       <section>
         <h1><a href="">Gallery</a></h1>
-        <p>{{lorem}}</p>
+        <p>A simple Gallery app that uses the <a href="https://randomuser.me/">randomuser.me</a> API to shuffle though random images from the API</p>
       </section>
       <section>
         <h1><a href="">R p g</a></h1>
