@@ -63,23 +63,23 @@
     </div>
     <div class="my-projects">
       <section>
-        <h1><a href="https://tictactoe.adedevs.repl.co/">tic-tac-toe game</a></h1>
+        <h1><a href="https://tictactoe.adedevs.repl.co/" target="_blank">tic-tac-toe game</a></h1>
         <p>A tic-tac-toe game against an AI built off the mini-max algorithm. The games will always either in a win for the AI or a tie.</p>
       </section>
       <section>
-        <h1><a href="https://kryptyktodo.netlify.app/">task tracker</a></h1>
-        <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally. <a id="special" href="https://github.com/AdeDevs/TaskTracker">Source Code</a></p>
+        <h1><a href="https://kryptyktodo.netlify.app/" target="_blank">task tracker</a></h1>
+        <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally. <a id="special" href="https://github.com/AdeDevs/TaskTracker" target="_blank">Source Code</a></p>
       </section>
       <section>
-        <h1><a href="https://kryptykcalculator.web.app/">calculator</a></h1>
+        <h1><a href="https://kryptykcalculator.web.app/" target="_blank">calculator</a></h1>
         <p>A simple calculator singluar webpage built with ReactJS. Completes simple operations</p>
       </section>
       <section>
-        <h1><a href="https://kryptykreducer.web.app/">quotes</a></h1>
+        <h1><a href="https://kryptykreducer.web.app/" target="_blank">quotes</a></h1>
         <p>A single webpage that shows "CRID" in effect which just stores the data saved to current page data, once reloaded all data is lost. There's the option to create and delete a "quote", there's also a like increment and decrement counter.</p>
       </section>
       <section>
-        <h1><a href="https://kryptyktac.web.app/">tic-tac-toe </a></h1>
+        <h1><a href="https://kryptyktac.web.app/" target="_blank">tic-tac-toe </a></h1>
         <p>A traditional tic-tac-toe game where human players can play against each other, this was built with Vanilla Javascript and HTML</p>
       </section>
       <section>
