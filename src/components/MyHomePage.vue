@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <h1>
-      <a href="https://linktr.ee/adedevs">{{ name }}</a>
+      <a href="https://linktr.ee/adedevs" target="_blank">{{ name }}</a>
     </h1>
     <section>
       <ul>
