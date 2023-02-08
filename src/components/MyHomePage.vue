@@ -7,6 +7,10 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
 
   const cardTransform = computed(() => {
     const MAX_ROTATION = 6
+
+    const rX = (
+      MAX_ROTATION / 2 - (elementY.value / elementHeight.value ) * MAX_ROTATION
+    ).toFixed(2)
   })
 </script>
 
