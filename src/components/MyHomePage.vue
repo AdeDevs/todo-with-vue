@@ -115,6 +115,7 @@ export default {
   methods: {
     photographer() {
       alert("I Am But A Mobile Photographer And Editor");
+      
     },
   },
 };
