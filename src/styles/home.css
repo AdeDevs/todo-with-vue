@@ -99,6 +99,10 @@ ul {
   background-color: rgb(40, 43, 66);
 }
 
+.my-summary .info #name {
+  
+}
+
 /* Styling for "projects" */
 #projects {
   box-sizing: border-box;

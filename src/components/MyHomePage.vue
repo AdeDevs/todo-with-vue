@@ -27,7 +27,7 @@
 
       <section class="info">
         <div class="ade">
-          <h1>i am adeyemi akinyemi</h1>
+          <h1 id="name">i am adeyemi akinyemi</h1>
           <p>
             i am adeyemi akinyemi, an entry-level professional frontend devloper with
             grad certificate from
