@@ -1,25 +1,3 @@
-<script setup lang="ts">
-import { ref, computed } from "vue";
-import { useMouseInElement } from "@vueuse/core";
-const target = ref(null);
-const { elementX, elementY, isOutside, elementHeight, elementWidth } =
-  useMouseInElement(target);
-
-  const cardTransform = computed(() => {
-    const MAX_ROTATION = 6
-
-    const rX = (
-      MAX_ROTATION / 2 - (elementY.value / elementHeight.value ) * MAX_ROTATION
-    ).toFixed(2)  //for x-axis
-
-    const rY = (
-      (elementX.value / elementWidth.value ) * MAX_ROTATION - MAX_ROTATION / 2
-    ).toFixed(2) //for y axis
-
-    return isOutside.value ? '' : `perspective(${elementWidth.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
-  })
-</script>
-
 <template>
   <div class="nav">
     <h1>
@@ -29,12 +7,7 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
       <ul>
         <li style="margin-right: 10px"><a href="#projects">Projects</a></li>
         <li style="margin-right: 10px"><a href="#contact">Contact</a></li>
-        <li>
-          <a
-            href="https://docs.google.com/document/d/1NWXrOx77kMAUol-TsPX9lmA7CawSGAR1mSC4Bp9viSk/edit?usp=sharing"
-            >CV</a
-          >
-        </li>
+        <li><a href="https://docs.google.com/document/d/1NWXrOx77kMAUol-TsPX9lmA7CawSGAR1mSC4Bp9viSk/edit?usp=sharing">CV</a></li>
       </ul>
     </section>
   </div>
@@ -56,8 +29,8 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
         <div class="ade">
           <h1 id="name">i am adeyemi akinyemi</h1>
           <p>
-            i am adeyemi akinyemi, an entry-level professional frontend devloper
-            with grad certificate from
+            i am adeyemi akinyemi, an entry-level professional frontend devloper with
+            grad certificate from
             <a href="https://thealtschool.com/" target="_blank"
               >AltSchoolAfrica</a
             >
@@ -65,14 +38,10 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
           <p>
             during my freetime i am a
             <a href="https://www.tiktok.com/@shegavemeptsds">gamer</a>
-            <a href="https://bit.ly/3hCbN9t" @click="photographer"
+             <a href="https://bit.ly/3hCbN9t" @click="photographer"
               >Photographer</a
             >
-            <a
-              href="https://drive.google.com/drive/folders/1RrwGQqwh9v0gFPCr1g_8tVdvhGRSmW0i?usp=share_link"
-              target="_blank"
-              >Writer</a
-            >
+             <a href="https://drive.google.com/drive/folders/1RrwGQqwh9v0gFPCr1g_8tVdvhGRSmW0i?usp=share_link" target="_blank">Writer</a>
           </p>
           <p>
             My personal
@@ -89,98 +58,48 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
   <div id="projects">
     <div class="projects-head">
       <!-- <h1>projects</h1> -->
-      <h1>my projects</h1>
-      <p id="little">
-        This is a list of all the projects I've worked on and some that I am
-        still working on.
-      </p>
+    <h1>my projects</h1>
+    <p id="little">This is a list of all the projects I've worked on and some that I am still working on.</p>
     </div>
     <div class="my-projects">
-      <section ref="target">
-        <h1>
-          <a href="https://tictactoe.adedevs.repl.co/" target="_blank"
-            >tic-tac-toe game</a
-          >
-        </h1>
-        <p>
-          A tic-tac-toe game against an AI built off the mini-max algorithm. The
-          games will always either in a win for the AI or a tie.
-        </p>
+      <section>
+        <h1><a href="https://tictactoe.adedevs.repl.co/" target="_blank">tic-tac-toe game</a></h1>
+        <p>A tic-tac-toe game against an AI built off the mini-max algorithm. The games will always either in a win for the AI or a tie.</p>
       </section>
       <section>
-        <h1>
-          <a href="https://kryptyktodo.netlify.app/" target="_blank"
-            >task tracker</a
-          >
-        </h1>
-        <p>
-          A to-do-list app built using VueJS which implements the CRUD
-          functionalities and uses a JSON server as a backend locally.
-          <a
-            id="special"
-            href="https://github.com/AdeDevs/TaskTracker"
-            target="_blank"
-            >Source Code</a
-          >
-        </p>
+        <h1><a href="https://kryptyktodo.netlify.app/" target="_blank">task tracker</a></h1>
+        <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally. <a id="special" href="https://github.com/AdeDevs/TaskTracker" target="_blank">Source Code</a></p>
       </section>
       <section>
-        <h1>
-          <a href="https://kryptykcalculator.web.app/" target="_blank"
-            >calculator</a
-          >
-        </h1>
-        <p>
-          A simple calculator singluar webpage built with ReactJS. Completes
-          simple operations
-        </p>
+        <h1><a href="https://kryptykcalculator.web.app/" target="_blank">calculator</a></h1>
+        <p>A simple calculator singluar webpage built with ReactJS. Completes simple operations</p>
       </section>
       <section>
-        <h1>
-          <a href="https://kryptykreducer.web.app/" target="_blank">quotes</a>
-        </h1>
-        <p>
-          A single webpage that shows "CRID" in effect which just stores the
-          data saved to current page data, once reloaded all data is lost.
-          There's the option to create and delete a "quote", there's also a like
-          increment and decrement counter.
-        </p>
+        <h1><a href="https://kryptykreducer.web.app/" target="_blank">quotes</a></h1>
+        <p>A single webpage that shows "CRID" in effect which just stores the data saved to current page data, once reloaded all data is lost. There's the option to create and delete a "quote", there's also a like increment and decrement counter.</p>
       </section>
       <section>
-        <h1>
-          <a href="https://kryptyktac.web.app/" target="_blank">tic-tac-toe </a>
-        </h1>
-        <p>
-          A traditional tic-tac-toe game where human players can play against
-          each other, this was built with Vanilla Javascript and HTML
-        </p>
+        <h1><a href="https://kryptyktac.web.app/" target="_blank">tic-tac-toe </a></h1>
+        <p>A traditional tic-tac-toe game where human players can play against each other, this was built with Vanilla Javascript and HTML</p>
       </section>
       <section>
-        <h1>
-          <a href="https://gimmikgallery.web.app/" target="_blank">Gallery</a>
-        </h1>
-        <p>
-          A simple Gallery app that uses the
-          <a href="https://randomuser.me/" target="_blank">randomuser.me</a> API
-          to shuffle though random images from the API
-        </p>
+        <h1><a href="https://gimmikgallery.web.app/" target="_blank">Gallery</a></h1>
+        <p>A simple Gallery app that uses the <a href="https://randomuser.me/" target="_blank">randomuser.me</a> API to shuffle though random images from the API</p>
       </section>
       <section>
         <h1><a href="">R p g</a></h1>
-        <p>{{ lorem }}</p>
+        <p>{{lorem}}</p>
       </section>
       <section>
         <h1><a href="">To-do list app</a></h1>
-        <p>
-          A mobile to-do-list app built using FLUTTER that shows "CRUD" in
-          effect. There's the option to create and delete a task, option to
-          remoce and to undo a mistake
-        </p>
+        <p>A mobile to-do-list app built using FLUTTER that shows "CRUD" in effect. There's the option to create and delete a task, option to remoce and to undo a mistake</p>
       </section>
-    </div>
+    </div>    
   </div>
   <footer class="bottom">
-    <p>this website was built by adeyemi using</p>
+    <p>
+      this website was built by adeyemi using
+    </p>
   </footer>
 </template>
 
@@ -197,17 +116,10 @@ export default {
     photographer() {
       alert("I Am But A Mobile Photographer And Editor");
     },
-    openPage() {
-      alert("Open");
-    },
   },
 };
 </script>
 
 <style scoped>
 @import "../styles/home.css";
-section {
-  transform: v-bind(cardTransform); 
-  transition: 'transform 0.25s ease-out'
-}
 </style>
