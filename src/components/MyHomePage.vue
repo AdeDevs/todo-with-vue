@@ -16,7 +16,7 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
       (elementX.value / elementWidth.value ) * MAX_ROTATION - MAX_ROTATION / 2
     ).toFixed(2) //for y axis
 
-    return isOutside.value ? '' : `rotateX(${rX}deg) rotateY(${rY}deg)`
+    return isOutside.value ? '' : `perspective(${elementWidth.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
   })
 </script>
 
