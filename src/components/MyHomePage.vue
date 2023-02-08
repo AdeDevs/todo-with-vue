@@ -10,7 +10,13 @@ const { elementX, elementY, isOutside, elementHeight, elementWidth } =
 
     const rX = (
       MAX_ROTATION / 2 - (elementY.value / elementHeight.value ) * MAX_ROTATION
-    ).toFixed(2)
+    ).toFixed(2)  //for x-axis
+
+    const rY = (
+      (elementX.value / elementWidth.value ) * MAX_ROTATION - MAX_ROTATION / 2
+    ).toFixed(2) //for y axis
+
+    return isOutside.value ? '' : `rotateX(${rX}deg) rotateY(${rY}deg)`
   })
 </script>
 
@@ -200,4 +206,8 @@ export default {
 
 <style scoped>
 @import "../styles/home.css";
+section {
+  transform: v-bind(cardTransform); 
+  transition: 'transform 0.25s ease-out'
+}
 </style>
