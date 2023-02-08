@@ -104,6 +104,9 @@
 </template>
 
 <script>
+import { ref, computed } from 'vue'
+import { useMouseInElement } from '@vueuse/core'
+const target = ref (null)
 export default {
   data() {
     return {
@@ -115,8 +118,10 @@ export default {
   methods: {
     photographer() {
       alert("I Am But A Mobile Photographer And Editor");
-      
     },
+    openPage() {
+      alert('Open')
+    }
   },
 };
 </script>
