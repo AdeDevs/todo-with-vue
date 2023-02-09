@@ -102,7 +102,7 @@
   </div>
   <footer class="bottom">
     <p>
-      this website was built by adeyemi using
+      this website was built by adeyemi
     </p>
   </footer>
 </template>
