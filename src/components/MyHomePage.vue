@@ -87,6 +87,10 @@
         <p>A simple Gallery app that uses the <a href="https://randomuser.me/" target="_blank">randomuser.me</a> API to shuffle though random images from the API</p>
       </section>
       <section>
+        <h1><a href="">Github Clone</a></h1>
+        <p>A Github landing page replica with most of the same functionalities as the original Github landing page</p>
+      </section>
+      <section>
         <h1><a href="">R p g</a></h1>
         <p>{{lorem}}</p>
       </section>
