@@ -71,7 +71,7 @@
         <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally. <a id="special" href="https://github.com/AdeDevs/TaskTracker" target="_blank">Source Code</a></p>
       </section>
       <section>
-        <h1><a href="https://kryptykhamburger.netlify.app/" target="_blank">hamburger menu</a></h1>
+        <h1><a href="https://kryptykhamburger.web.app/" target="_blank">hamburger menu</a></h1>
         <p>A simple webpage of a responsive hamburger menu(this one is a personal favourite because I had been putting learning and building it off for so long).</p>
       </section>
       <section>
