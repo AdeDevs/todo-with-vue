@@ -1,8 +1,8 @@
-.nav {
+.links {
   display: inline-flex;
   justify-content: space-between;
   width: 99%;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 10px 0px;
   top: 0;
   box-sizing: border-box;
@@ -10,9 +10,10 @@
   font-weight: 500;
   background-color: rgb(31, 34, 53);
   position: fixed;
+  
 }
 
-.nav a {
+.links a {
   color: inherit;
   text-decoration: none;
   color: white;
@@ -21,7 +22,7 @@
   border: 2px solid red;
 }
 
-.nav a:hover,
+.links a:hover,
 .my-summary .info a:hover {
   background-color: #fff;
   color: rgb(40, 43, 66);
@@ -39,6 +40,10 @@ ul {
   background-color: rgb(35, 38, 58);
   width: 100%;
   padding: 10px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
   font-family: "Comfortaa", sans-serif;
   box-sizing: border-box;
   margin-top: 40px;
@@ -100,84 +105,8 @@ ul {
 }
 
 
-/* Styling for "projects" */
-#projects {
-  box-sizing: border-box;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 20px;
-}
 
-#projects a {
-    text-decoration: none;
-    color: inherit;
-    border: 2px solid red;
-    border-radius: 5px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-}
-
-#projects a:hover {
-    transition: 200ms;
-    background-color: white;
-    color: rgb(40, 43, 66);
-}
-
-#projects h1 {
-  font-weight: 800;
-  font-size: 1.2em;
-  font-family: "comfortaa", sans-serif;
-  text-transform: uppercase;
-  text-transform: lowercase;
-  margin-bottom: 5px;
-}
-
-#projects p {
-  font-family: "Montserrat", sans-serif;
-}
-
-#projects .projects-head h1 {
-  color: red;
-  font-size: 1em;
-  font-weight: 100;
-  font-family: "Montserrat", sans-serif;
-}
-
-#projects .projects-head #little {
-  font-weight: 100;
-  width: 300px;
-  margin: 10px auto;
-  text-transform: capitalize;
-  font-size: 0.7em;
-}
-
-#projects .projects-head p {
-  text-transform: capitalize;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-}
-
-#projects .my-projects {
-  display: flex;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  text-align: left;
-  margin: 0 auto;
-  width: 90%;
-}
-
-#projects .my-projects section {
-  width: 300px;
-  box-sizing: border-box;
-  margin: 10px auto;
-  border: 2px solid red;
-  background-color: rgb(40, 43, 66);
-  border-radius: 10px;
-  padding: 15px;
-}
-
-/* design for foot of website */
+/* design for foot of website
 .bottom p {
   font-size: .9em;
 }
@@ -193,4 +122,4 @@ ul {
   padding: 10px 7px;
   text-align: center;
   width: 100%;
-}
+} */

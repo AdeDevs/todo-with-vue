@@ -1,10 +1,15 @@
 <template>
+  <div class="nav">
+    <router-link to="/">Home</router-link>
+    <router-link to="/projects">Projects</router-link>
+    <router-link to="/contact">Contact Me</router-link>
+  </div>
   <div class="main-container">
-    <MyHomePage />
+    <router-view />
   </div>
 </template>
 
-<script>
+<!-- <script>
 import MyHomePage from './components/MyHomePage.vue';
 
 export default {
@@ -13,7 +18,7 @@ export default {
     MyHomePage
   }
 }
-</script>
+</script> -->
 
 <style scoped>
 @import "./styles/style.css";
