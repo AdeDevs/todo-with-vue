@@ -1,15 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+
+a.router-link-exact-active {
+  color: red;
+  text-decoration: underline;
+}
 
 body {
-    background-color: rgb(31, 34, 53);
-    font-family: "", 'Quicksand', sans-serif;
-    color: #fff;
+  background-color: rgb(31, 34, 53);
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
 }
 
 .main-container {
-    background-color: rgb(31, 34, 53);
-    width: 99%;
-    margin: 0 auto;
+  background-color: rgb(31, 34, 53);
+  width: 99%;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  position: fixed;
+  bottom: 5%; left: 0; right: 0;
+  width: fit-content;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.nav a {
+    margin: 0 10px;
 }

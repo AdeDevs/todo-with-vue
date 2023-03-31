@@ -1,4 +1,4 @@
-.nav {
+.links {
   display: inline-flex;
   justify-content: space-between;
   width: 99%;
@@ -13,7 +13,7 @@
   
 }
 
-.nav a {
+.links a {
   color: inherit;
   text-decoration: none;
   color: white;
@@ -22,7 +22,7 @@
   border: 2px solid red;
 }
 
-.nav a:hover,
+.links a:hover,
 .my-summary .info a:hover {
   background-color: #fff;
   color: rgb(40, 43, 66);
