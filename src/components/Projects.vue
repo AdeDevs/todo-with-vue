@@ -23,6 +23,10 @@
         <p>A simple calculator singluar webpage built with ReactJS. Completes simple operations</p>
       </section>
       <section>
+        <h1><a href="https://kryptykshop.web.app/" target="_blank">e-commerce</a></h1>
+        <p>A simple e-commerce website built with ReactJS. I cloned the <a href="https://html.design/demo/vintagefur/index.html">vintagefure</a> e-commerce website</p>
+      </section>
+      <section>
         <h1><a href="https://kryptykreducer.web.app/" target="_blank">quotes</a></h1>
         <p>A single webpage that shows "CRID" in effect which just stores the data saved to current page data, once reloaded all data is lost. There's the option to create and delete a "quote", there's also a like increment and decrement counter.</p>
       </section>
