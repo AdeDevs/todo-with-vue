@@ -52,7 +52,8 @@ ul {
 .my-summary .socials img {
   border: 2px solid red;
   border-radius: 50%;
-  width: 15px;
+  width: 35px;
+  display: inline;
   padding: 5px;
   margin-right: 10px;
 }
