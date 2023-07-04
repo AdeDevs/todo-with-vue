@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chakra+Petch&family=DM+Serif+Display&family=Poppins:wght@700&family=Shantell+Sans:wght@700&display=swap');
+
+.contact {
+    background-color: inherit;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact form {
+    width: 50%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    border: 3px solid grey;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #000;
+}
+
+.contact input:focus, .contact textarea:focus, .contact input:hover, .contact textarea:hover {
+    border: 3px solid rgb(17, 234, 17);
+}
+
+.contact input::placeholder, .contact textarea::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+.contact input {
+    height: 60px;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.contact textarea {
+    height: 150px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.contact button {
+    background-color: rgba(109, 109, 109, 0.359);
+    text-align: center;
+    display: block;
+    color: #000;
+    margin: 0 auto;
+    padding: 10px 40px;
+    font-family: "Acme", sans-serif;
+    font-weight: bolder;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.contact button:hover {
+    background-color: rgb(17, 234, 17);
+    transition: 300ms;
+}
+
+@media (max-width: 740px) {
+    .contact form {
+        width: 100%;
+    }
+    .contact button {
+        width: 100%;
+    }
+}

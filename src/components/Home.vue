@@ -27,7 +27,7 @@
         <div class="ade">
           <h1 id="name">i am adeyemi akinyemi</h1>
           <p>
-            i am adeyemi akinyemi, an entry-level professional frontend devloper with
+            i am adeyemi akinyemi, an entry-level professional frontend developer with
             grad certificate from
             <a href="https://thealtschool.com/" target="_blank"
               >AltSchoolAfrica</a
