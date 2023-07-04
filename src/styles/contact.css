@@ -37,7 +37,6 @@
 .contact input {
     height: 60px;
     padding: 10px 20px;
-    font-weight: bolder;
 }
 
 .contact textarea {
@@ -72,5 +71,8 @@
     }
     .contact button {
         width: 100%;
+    }
+    .contact input:focus, .contact textarea:focus, .contact input:hover, .contact textarea:hover {
+        border: 2px solid rgb(17, 234, 17);
     }
 }

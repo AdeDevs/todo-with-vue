@@ -14,10 +14,10 @@
         <h1><a href="https://kryptyktodo.netlify.app/" target="_blank">task tracker</a></h1>
         <p>A to-do-list app built using VueJS which implements the CRUD functionalities and uses a JSON server as a backend locally. <a id="special" href="https://github.com/AdeDevs/TaskTracker" target="_blank">Source Code</a></p>
       </section>
-      <section>
+      <!-- <section>
         <h1><a href="https://kryptykhamburger.web.app/" target="_blank">hamburger menu</a></h1>
         <p>A simple webpage of a responsive hamburger menu(this one is a personal favourite because I had been putting learning and building it off for so long).</p>
-      </section>
+      </section> -->
       <section>
         <h1><a href="https://kryptykcalculator.web.app/" target="_blank">calculator</a></h1>
         <p>A simple calculator singluar webpage built with ReactJS. Completes simple operations</p>
@@ -38,14 +38,14 @@
         <h1><a href="https://gimmikgallery.web.app/" target="_blank">Gallery</a></h1>
         <p>A simple Gallery app that uses the <a href="https://randomuser.me/" target="_blank">randomuser.me</a> API to shuffle though random images from the API</p>
       </section>
-      <section>
+      <!-- <section>
         <h1><a href="">Github Clone</a></h1>
         <p>A Github landing page replica with most of the same functionalities as the original Github landing page</p>
       </section>
       <section>
         <h1><a href="">R p g</a></h1>
         <p>{{lorem}}</p>
-      </section>
+      </section> -->
       <section>
         <h1><a href="">To-do list app</a></h1>
         <p>A mobile to-do-list app built using FLUTTER that shows "CRUD" in effect. There's the option to create and delete a task, option to remoce and to undo a mistake</p>

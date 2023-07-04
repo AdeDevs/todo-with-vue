@@ -26,7 +26,6 @@
 body {
   background-color: rgb(31, 34, 53);
   font-family: "Acme", sans-serif;
-  text-transform: uppercase;
   color: #fff;
 }
 
@@ -41,6 +40,7 @@ body {
   border: 2px solid rgba(255, 0, 0, 0.429);
   border-radius: 5px;
   padding: 10px;
+  text-transform: uppercase;
   position: fixed;
   bottom: 2%; left: 0; right: 0;
   width: fit-content;
