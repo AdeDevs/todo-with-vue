@@ -38,11 +38,11 @@
         <h1><a href="https://gimmikgallery.web.app/" target="_blank">Gallery</a></h1>
         <p>A simple Gallery app that uses the <a href="https://randomuser.me/" target="_blank">randomuser.me</a> API to shuffle though random images from the API</p>
       </section>
-      <!-- <section>
-        <h1><a href="">Github Clone</a></h1>
-        <p>A Github landing page replica with most of the same functionalities as the original Github landing page</p>
-      </section>
       <section>
+        <h1><a href="https://kryptykpassw.web.app/">Password Generator</a></h1>
+        <p>A simple webpage built with html, css and javascript that generates a new random password for you everytime with just the click of a button that consists of letters (in lowercase and uppercase), special characters and numbers</p>
+      </section>
+      <!-- <section>
         <h1><a href="">R p g</a></h1>
         <p>{{lorem}}</p>
       </section> -->
